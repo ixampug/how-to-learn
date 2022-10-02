@@ -126,7 +126,7 @@
 
 .digits {
   box-sizing: border-box;
-  margin: 100px auto;
+  margin: 0 auto 100px;
   position: relative;
 }
 
@@ -342,11 +342,15 @@
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .footer__column-links {
   margin: 20px 0 16px;
   padding-left: 0;
+  list-style: none;
 }
 
 .footer__column-link {
